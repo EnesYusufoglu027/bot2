@@ -17,7 +17,7 @@ QUOTES_FILE = "jp_quotes.txt"
 video_category_id = "22"
 privacy_status = "public"
 made_for_kids = False
-video_tags = ["モチベーション", "日本語", "Shorts", "毎日", "インスピレーション"]
+video_tags = ["Motivasyon," "Japonca," "shorts," "Günlük," "İlham"]
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
 
@@ -155,7 +155,7 @@ def job():
         quotes = [line.strip() for line in f if line.strip()]
     quote = random.choice(quotes)
 
-    video_title = f"{quote} - 毎日のモチベーション #Shorts"
+    video_title = f"{quote} - Günlük Motivasyon #Shorts"
     video_description = (
         "Japonca günlük motivasyon mesajları." 
         "Bugün harika bir gün geçirin!"
