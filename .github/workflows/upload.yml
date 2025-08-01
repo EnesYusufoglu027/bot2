@@ -6,7 +6,7 @@ on:
     - cron: '0 9 * * *'      # 18:00 JST
     - cron: '30 12 * * *'    # 21:30 JST
   workflow_dispatch:         # Elle tetikleme
-
+  
 jobs:
   upload_video:
     runs-on: ubuntu-latest
